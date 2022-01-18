@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <td>Lewy górny</td>
+            <td id="td2">Prawy górny</td>
+        </tr>
+        <tr id="tr2">
+            <td id="td3">Lewy dolny</td>
+            <td id="td4">Prawy dolny</td>
+        </tr>
+    </table>
+    <script>
+        document.querySelector("table").style.borderColor="red";
+
+        document.querySelector("tr").style.backgroundColor="lightgreen";
+        
+        document.getElementById("tr2").style.backgroundColor="pink";
+
+        document.querySelector("td").style.color="blue";
+
+        document.getElementById("td2").style.color="yellow";
+        document.getElementById("td3").style.color="grey";
+        document.getElementById("td4").style.color="magenta";
+    </script>
+</body>
+</html>
